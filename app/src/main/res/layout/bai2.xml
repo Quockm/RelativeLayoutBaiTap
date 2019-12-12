@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Top Content Here"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:background="#F44336">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Bottom Content Here"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="#A39B99">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Second"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#2196F3"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="First"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/tvSecond"
+        android:background="#4CAF50">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Third"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/tvSecond"
+        android:background="#FFC107">
+
+    </TextView>
+
+
+
+
+
+
+
+</RelativeLayout>
